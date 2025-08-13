@@ -12,7 +12,7 @@ your-repo-name/
 ├── data_sprint_2025/                                 # Contains surveillance and population CSV files (e.g., dengue.csv.gz, datasus_population_2001_2024.csv.gz)
 ├── RELATORIO_DTB_BRASIL_DISTRITOS.ods     # Municipality codes lookup for geolocation
 ├── Sprint_2025_Forecast.ipynb                          # Core script: data preprocessing, ODE model, Bayesian training, forecasting, submission
-├── models/                                # Folder to store saved posterior results, metadata, and training data
+├── saved_models/                                # Folder to store saved posterior results, metadata, and training data
 ├── forecasts/                             # Generated forecast CSVs per state
 ├── requirements.txt                       # Python dependencies list
 └── README.md                              # This documentation file
