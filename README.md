@@ -12,11 +12,6 @@ your-repo-name/
 ├── data/                                 # Contains surveillance and population CSV files (e.g., dengue.csv.gz, datasus_population_2001_2024.csv.gz)
 ├── RELATORIO_DTB_BRASIL_DISTRITOS.ods     # Municipality codes lookup for geolocation
 ├── main_model.py                          # Core script: data preprocessing, ODE model, Bayesian training, forecasting, submission
-├── utils/                                 # Utility functions for weather processing, geolocation, ODE routines
-│   ├── weather_functions.py              # Weather-dependent parameter computation
-│   ├── ode_model.py                      # SEIR model and ODE integrator with numba
-│   ├── data_loader.py                    # Functions to fetch dengue data and weather data
-│   └── persistence.py                    # Save/load model results and metadata
 ├── models/                                # Folder to store saved posterior results, metadata, and training data
 ├── forecasts/                             # Generated forecast CSVs per state
 ├── requirements.txt                       # Python dependencies list
